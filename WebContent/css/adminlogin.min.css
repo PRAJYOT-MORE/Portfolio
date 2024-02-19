@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+  background: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+h2{
+  padding-top: 1.5rem;
+}
+a{
+  color: #333;
+}
+a:hover{
+  color: #da5767;
+  text-decoration: none;
+}
+.card{
+  border: 0.40rem solid #f8f9fa;
+  top: 10%;
+}
+.form-control{
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 25px 15px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn {
+  background: #b8e3ff;
+  background-image: -webkit-linear-gradient(top, #b8e3ff, #63addb);
+  background-image: -moz-linear-gradient(top, #b8e3ff, #63addb);
+  background-image: -ms-linear-gradient(top, #b8e3ff, #63addb);
+  background-image: -o-linear-gradient(top, #b8e3ff, #63addb);
+  background-image: linear-gradient(to bottom, #b8e3ff, #63addb);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6abef2;
+  background-image: -webkit-linear-gradient(top, #6abef2, #478bb8);
+  background-image: -moz-linear-gradient(top, #6abef2, #478bb8);
+  background-image: -ms-linear-gradient(top, #6abef2, #478bb8);
+  background-image: -o-linear-gradient(top, #6abef2, #478bb8);
+  background-image: linear-gradient(to bottom, #6abef2, #478bb8);
+  text-decoration: none;
+}
